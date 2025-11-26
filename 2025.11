@@ -10,3 +10,5 @@ todo git
 ---25:
 shortlink项目，tread，wait，reentrnalock底层
 todo:05节短链接变更分组记录功能
+26:
+sentinel限流熔断机制，redis stream作为消息队列

@@ -15,3 +15,10 @@ todo：分段🔒实际应用，分布式，
 多级缓存存在的问题：1.OOM,2.修改时只会对一个jvm的hashmap修改，怎么保证和redis之间的数据一致性（“本地缓存一致性” 或 “节点缓存漂移”）
 1.生产商直接使用concurrenthashMap作为本地缓存肯定不行，用guava cache， 有一些实现了的lfu等淘汰策略保证
 TODO:2.看完消息队列后回到kimi中看
+
+12.7 https://www.bilibili.com/video/BV1tBSLBjE31?spm_id_from=333.788.player.switch&vd_source=fd78aea8e90e8ad1075c7334414ba437&p=5
+redis课程
+(1)redis集群mset失效，redis混合持久化方案，redis集群推荐内存不超过10G为什么
+（2）redis过期策略：惰性删除（过期的key），定期删除相结合
+（3）内存淘汰机制  allkeys-* ,  volatile-*(这个只在设置了过期时间的key中淘汰)
+（4）热key，大key问题

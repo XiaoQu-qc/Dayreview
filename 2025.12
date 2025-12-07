@@ -21,4 +21,5 @@ redis课程
 (1)redis集群mset失效，redis混合持久化方案，redis集群推荐内存不超过10G为什么
 （2）redis过期策略：惰性删除（过期的key），定期删除相结合
 （3）内存淘汰机制  allkeys-* ,  volatile-*(这个只在设置了过期时间的key中淘汰)
+https://www.bilibili.com/video/BV1tBSLBjE31?spm_id_from=333.788.player.switch&vd_source=fd78aea8e90e8ad1075c7334414ba437&p=6
 （4）热key，大key问题
